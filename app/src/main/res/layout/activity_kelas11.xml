@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".buku.ActivityKelas11">
+    <androidx.appcompat.widget.Toolbar
+        app:title="Kelas XI"
+        android:id="@+id/toolbarKelasxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuxi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatBukuxi1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11_desain_grafis.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textBukuxi1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Desain Grafis"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Jurusan TKJ dan TKR"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuxi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatBukuxi2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11_komputer_terapan_jaringan_1.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textBukuxi2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Komputer Terapan Jaringan"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Jurusan TKJ dan TKR"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuxi3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatBukuxi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11_teknik_gambar_mesin_2d_dengan_cad_1.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textBukuxi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Teknik Gambar Mesin 2D dengan CAD"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Jurusan TKJ dan TKR"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

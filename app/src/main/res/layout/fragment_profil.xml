@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profil.FragmentProfil">
+    <androidx.appcompat.widget.Toolbar
+        app:title="Profil"
+        android:id="@+id/toolbarProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp">
+        <RelativeLayout
+            android:id="@+id/menuStruktur"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/menu_profil1"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textStruktur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="struktur_perpustakaan.pdf"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/judulStruktur"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Struktur Perpustakaan"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menuVisimisi"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/menu_profil2"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textVisimisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="visi_misi_perpustakaan.pdf"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/judulVisimisi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Visi Misi Perpustakaan"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

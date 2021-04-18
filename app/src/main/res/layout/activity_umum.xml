@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".buku.ActivityUmum">
+    <androidx.appcompat.widget.Toolbar
+        app:title="Umum"
+        android:id="@+id/toolbarUmum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_100_tokoh_yang_mengubah_indonesia.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="100 Tokoh yang Mengubah Indonesia"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_bahagia_kenapa_tidak.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Bahagia, Kenapa Tidak?"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_bumi_manusia.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Bumi Manusia"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_bung_karno_penjambung_lidah_rakjat_indonesia.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Bung Karno Penjambung Lidah Rakjat Indonesia"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_chairil_anwar_hasil_karya_dan_pengabdiannya.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Chairil Anwar Hasil Karya dan Pengabdiannya"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_dhamma_indpirasi_kehidupan.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Dhamma Indpirasi Kehidupan"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_habis_gelap_terbitlah_terang.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Habis Gelap Terbitlah Terang"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_kitab_anti_bodoh.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Kitab Anti Bodoh"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_laskar_pelangi.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Laskar Pelangi"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_menyibak_perjuangan_menggapai_mimpi_dan_cita_cita_melalui_man_shabara_zhafira.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Menyibak Perjuangan Menggapai Mimpi dan Cita-Cita melalui Man Shabara Zhafira"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_sarapan_pagi_santap_kata_di_pagi_hari.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Sarapan Pagi Santap Kata_di Pagi Hari"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_sebuah_seni_untuk_bersikap_bodo_amat.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Sebuah Seni untuk Bersikap Bodo Amat"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_soekarno_mentjapai_indonesia_merdeka.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Soekarno Mentjapai Indonesia Merdeka"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_sultan_hamengku_buwana_ix.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Sultan Hamengku Buwana IX"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_surat_kecil_untuk_tuhan.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Surat Kecil untuk Tuhan"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorWhite"
+                android:id="@+id/bukuUmum16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="70dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/formatUmum16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="umum_tokoh_indonesia_yang_gemar_baca_buku.pdf"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textUmum16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Tokoh Indonesia yang Gemar Baca Buku"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pengetahuan Umum"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginHorizontal="30dp"
+                    android:text=">"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="textEnd"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
